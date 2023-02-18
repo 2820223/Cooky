@@ -10,14 +10,7 @@ class ChooseActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.choose_layout)
-
-        var parol = intent.getStringExtra("parol")
-        var login = intent.getStringExtra("login")
-        Log.d("parol",parol.toString())
-        Log.d("login",login.toString())
-
-
-
++
 
     }
 }
